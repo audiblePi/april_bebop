@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="april_bebop" type="publisher" name="publisher" />
+	<node pkg="april_bebop" type="subscriber.py" name="subscriber" />
+</launch>
